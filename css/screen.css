@@ -1,0 +1,104 @@
+/*Establish same style formatting across all html webpages, regarding: 
+font, text alignment, and background color*/
+html, body {
+	font-family: Arial, sans-serif, "Times New Roman";
+	text-align: center;
+	background-color: #B4BBBD;
+	min-height: 100%;
+}
+
+/*Customize the initial appearance of a link, and once it is visited via events*/
+a:link, a:visited {
+	color: #2149DF;
+	text-decoration: underline;
+} 
+
+/*Address link appearance when hovered over and active via events*/
+a:hover, a:active {
+	color: red;
+} 
+
+/*Customize header and footer style*/
+header, footer {
+	background-color: gold;
+	padding: 1em;
+}
+
+/*Remove style from unordered lists*/
+ul {
+    list-style: none;
+}
+
+/*Remove style from lists of items*/
+li {
+    list-style: none;
+}
+
+/*
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+*/
+
+@-ms-viewport{
+  width: device-width;
+  height: device-height;
+}
+
+/*Custom element styling body of FIXED homepage*/
+#container_index {
+	width: 1250px;
+	background-color: #B4BBBD;
+	color: yellow;
+}
+
+/*Custom element styling header of FLUID timeline page*/
+#header_cod {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+/*Custom element styling body of timeline page*/
+#container_cod {
+	width: 97%;
+	background-color: #101010;
+   	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 1em;
+}
+
+/*Custom element styling the head of FLUID business page*/
+#header_massage {
+	width: 100%;
+	font-size: 20pt;
+	background: url("../media/massage_studio.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #0D2981;
+	color: lime;
+}
+
+/*Custom element styling body of business page*/
+#container_massage {
+	width: 95%;
+	background: url("../media/massage_studio.jpg") fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: lime;
+	padding: 2em;
+}
+
+/*Custom elements styling both head and body of FLUID resume page */
+#header_resume, #container_resume {
+	width: 97%;
+	background: url("../media/skyline.jpg") fixed; 
+	background-repeat: no-repeat;	
+	background-size: cover;
+	color: white;
+	padding: 1em;
+}
