@@ -75,7 +75,6 @@ li {
 /*Custom element styling the head of FLUID business page*/
 #header_business {
 	width: 100%;
-	font-size: 20pt;
 	background: url("../media/massage_studio.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
