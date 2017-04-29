@@ -51,7 +51,7 @@ li {
 }
 */
 
-/*Custom element styling body of FIXED homepage*/
+/*Custom element styling body of FLUID homepage*/
 #container_index {
 	width: fixed;
 	background-color: #B4BBBD;
@@ -63,6 +63,7 @@ li {
 	width: fixed;
 	background-color: black;
 	color: white;
+	padding: none;
 }
 
 /*Custom element styling body of timeline page*/
@@ -73,7 +74,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	padding: 1em;
+	padding: 2em;
 }
 
 /*Custom element styling the head of FLUID business page*/
@@ -84,6 +85,7 @@ li {
 	background-size: cover;
 	background-color: #0D2981;
 	color: lime;
+	padding: none;
 }
 
 /*Custom element styling body of business page*/
@@ -97,12 +99,21 @@ li {
 	padding: 2em;
 }
 
-/*Custom elements styling both head and body of FLUID resume page */
-#header_resume, #container_resume {
+/*Custom elements styling header of FLUID resume page*/
+#header_resume {
 	width: fixed;
 	background: url("../media/skyline.jpg") fixed; 
 	background-repeat: no-repeat;	
 	background-size: cover;
 	color: white;
-	padding: 1em;
+	padding: none;
+}
+/*Custom elements styling body of FLUID resume page*/
+#container_resume {
+	width: fixed;
+	background: url("../media/skyline.jpg") fixed; 
+	background-repeat: no-repeat;	
+	background-size: cover;
+	color: white;
+	padding: 2em;
 }
