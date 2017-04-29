@@ -5,6 +5,7 @@ html, body {
 	text-align: center;
 	background-color: #B4BBBD;
 	min-height: 100%;
+	text-shadow: 2px 2px black;
 }
 
 /*Customize the initial appearance of a link, and once it is visited via events*/
@@ -50,7 +51,7 @@ li {
 
 /*Custom element styling body of FIXED homepage*/
 #container_index {
-	width: 1250px;
+	width: 100%;
 	background-color: #B4BBBD;
 	color: yellow;
 }
