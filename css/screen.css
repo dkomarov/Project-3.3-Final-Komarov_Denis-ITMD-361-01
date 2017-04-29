@@ -11,6 +11,7 @@ html, body {
 a:link, a:visited {
 	color: #2149DF;
 	text-decoration: underline;
+	text-shadow: none;
 } 
 
 /*Address link appearance when hovered over and active via events*/
@@ -89,6 +90,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
     color: lime;
+    text-shadow: 2px 2px black;
 	padding: 2em;
 }
 
