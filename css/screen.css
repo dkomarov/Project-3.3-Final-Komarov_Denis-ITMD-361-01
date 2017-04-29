@@ -44,28 +44,30 @@ li {
 }
 */
 
+/*
 @-ms-viewport{
   width: device-width;
   height: device-height;
 }
+*/
 
 /*Custom element styling body of FIXED homepage*/
 #container_index {
-	width: 100%;
+	width: fixed;
 	background-color: #B4BBBD;
 	color: yellow;
 }
 
 /*Custom element styling header of FLUID timeline page*/
 #header_cod {
-	width: 100%;
+	width: fixed;
 	background-color: black;
 	color: white;
 }
 
 /*Custom element styling body of timeline page*/
 #container_cod {
-	width: 97%;
+	width: fixed;
 	background-color: #101010;
    	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
 	background-repeat: no-repeat;
@@ -76,7 +78,7 @@ li {
 
 /*Custom element styling the head of FLUID business page*/
 #header_business {
-	width: 100%;
+	width: fixed;
 	background: url("../media/massage_studio.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -86,7 +88,7 @@ li {
 
 /*Custom element styling body of business page*/
 #container_business {
-	width: 95%;
+	width: fixed;
 	background: url("../media/massage_studio.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -97,7 +99,7 @@ li {
 
 /*Custom elements styling both head and body of FLUID resume page */
 #header_resume, #container_resume {
-	width: 97%;
+	width: fixed;
 	background: url("../media/skyline.jpg") fixed; 
 	background-repeat: no-repeat;	
 	background-size: cover;
