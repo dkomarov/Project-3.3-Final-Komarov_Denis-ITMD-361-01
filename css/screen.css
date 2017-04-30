@@ -155,22 +155,12 @@ padding-right:10px;
 	background:none!important;
 }
 
-
-/*@media (orientation: landscape)
-{
-
-}
-
-@media (orientation: portrait)
-{
-
-}
-*/
 	/*Responsive Design, Mobile-First*/
 	/*Phone*/
 	@media only screen and (min-width: 360px){
 		head, body { 
 			font-size: 9px;
+			width: 100%;
 		}
 		#gmap_canvas {
 		height: 300px;
@@ -182,6 +172,7 @@ padding-right:10px;
 	@media only screen and (min-width: 720px){
 		head, body{
 			font-size: 10px;
+			width: 100%;
 		}
 		#gmap_canvas {
 		height: 400px;
@@ -194,7 +185,7 @@ padding-right:10px;
 	@media only screen and (min-width: 1080px){
 		head, body{
 			font-size: 11px;
-			
+			background: 100%;	
 		}
 		
 	/*Responsive Design*/
@@ -202,6 +193,7 @@ padding-right:10px;
 	@media only screen and (min-width: 1440px){
 		head, body{
 			font-size: 12px;
+			width: 100%;
 		}
 		
 	}
