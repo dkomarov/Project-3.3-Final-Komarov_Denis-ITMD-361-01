@@ -55,7 +55,13 @@ padding-right:40px;
   height: device-height;
 }
 */
-
+#header_index {
+	width: auto;
+	color: yellow;
+	background: url("../media/Autumn.jpg") fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /*Custom element styling body of FLUID homepage*/
 #container_index {
 	width: auto;
@@ -63,6 +69,7 @@ padding-right:40px;
 	background: url("../media/Autumn.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 2em;
 }
 
 /*Custom element styling header of FLUID timeline page*/
@@ -89,7 +96,6 @@ padding-right:40px;
 	background: url("../media/massage_studio.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #0D2981;
 	color: lime;
 }
 
