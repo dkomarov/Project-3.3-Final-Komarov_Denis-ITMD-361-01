@@ -114,3 +114,14 @@ li {
 	color: white;
 	padding: 2em;
 }
+
+#gmap_canvas {
+	margin: 0 auto 0 auto;
+	color:black;
+	text-shadow: none;
+	height:500px;
+	width:500px;
+	overflow: hidden;
+	max-width:none!important;
+	background:none!important;
+}
