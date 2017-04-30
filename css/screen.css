@@ -3,7 +3,6 @@ font, text alignment, and background color*/
 html, body {
 	font-family: Arial, sans-serif, "Times New Roman";
 	text-align: center;
-	background-color: #B4BBBD;
 	min-height: 100%;
 	text-shadow: 2px 2px black;
 }
@@ -36,6 +35,12 @@ li {
     list-style: none;
 }
 
+#fav_sites {
+background-color: cyan;
+width:150px;
+margin: auto;
+padding-right:40px;
+}
 /*
 @media screen and (min-width: 480px) {
     body {
@@ -54,8 +59,10 @@ li {
 /*Custom element styling body of FLUID homepage*/
 #container_index {
 	width: auto;
-	background-color: #B4BBBD;
 	color: yellow;
+	background: url("../media/Autumn.jpg") fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*Custom element styling header of FLUID timeline page*/
@@ -116,7 +123,7 @@ li {
 }
 
 #gmap_canvas {
-	margin: 0 auto 0 auto;
+	margin: auto;
 	color:black;
 	text-shadow: none;
 	height:500px;
