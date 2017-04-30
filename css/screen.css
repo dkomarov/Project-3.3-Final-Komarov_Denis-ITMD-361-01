@@ -53,22 +53,21 @@ li {
 
 /*Custom element styling body of FLUID homepage*/
 #container_index {
-	width: fixed;
+	width: auto;
 	background-color: #B4BBBD;
 	color: yellow;
 }
 
 /*Custom element styling header of FLUID timeline page*/
 #header_cod {
-	width: fixed;
+	width: auto;
 	background-color: black;
 	color: white;
-	padding: none;
 }
 
 /*Custom element styling body of timeline page*/
 #container_cod {
-	width: fixed;
+	width: auto;
 	background-color: #101010;
    	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
 	background-repeat: no-repeat;
@@ -79,18 +78,17 @@ li {
 
 /*Custom element styling the head of FLUID business page*/
 #header_business {
-	width: fixed;
+	width: auto;
 	background: url("../media/massage_studio.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #0D2981;
 	color: lime;
-	padding: none;
 }
 
 /*Custom element styling body of business page*/
 #container_business {
-	width: fixed;
+	width: auto;
 	background: url("../media/massage_studio.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -101,16 +99,15 @@ li {
 
 /*Custom elements styling header of FLUID resume page*/
 #header_resume {
-	width: fixed;
+	width: auto;
 	background: url("../media/skyline.jpg") fixed; 
 	background-repeat: no-repeat;	
 	background-size: cover;
 	color: white;
-	padding: none;
 }
 /*Custom elements styling body of FLUID resume page*/
 #container_resume {
-	width: fixed;
+	width: auto;
 	background: url("../media/skyline.jpg") fixed; 
 	background-repeat: no-repeat;	
 	background-size: cover;
