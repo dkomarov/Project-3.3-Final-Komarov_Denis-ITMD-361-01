@@ -159,7 +159,7 @@ padding-right:10px;
 	/*Phone*/
 	@media only screen and (min-width: 360px){
 		head, body { 
-			font-size: 9px;
+			font-size: 12px;
 			
 		}
 		
@@ -182,7 +182,7 @@ padding-right:10px;
 	/*Tablet*/
 	@media only screen and (min-width: 720px){
 		head, body{
-			font-size: 10px;
+			font-size: 14px;
 			
 		}
 		#gmap_canvas {
@@ -202,7 +202,7 @@ padding-right:10px;
 	/*Laptop*/
 	@media only screen and (min-width: 1080px){
 		head, body{
-			font-size: 11px;		
+			font-size: 16px;		
 		}
 		#header_index, #header_business, #header_cod, #header_resume {
 			background-size: 1080px 1080px;
@@ -217,7 +217,7 @@ padding-right:10px;
 	/*Desktop*/
 	@media only screen and (min-width: 1440px){
 		head, body{
-			font-size: 12px;
+			font-size: 18px;
 			
 		}
 		#header_index, #header_business, #header_cod, #header_resume {
