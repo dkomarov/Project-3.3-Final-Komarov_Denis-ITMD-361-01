@@ -75,6 +75,7 @@ padding-right:10px;
 	background: url("../media/Autumn.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 /*Custom element styling body of FLUID homepage*/
 #container_index { 
@@ -83,6 +84,7 @@ padding-right:10px;
 	background: url("../media/Autumn.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	padding: 4em;
 }
 
@@ -92,6 +94,7 @@ padding-right:10px;
 	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 /*Custom element styling body of timeline page*/
@@ -101,6 +104,7 @@ padding-right:10px;
    	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: white;
 	padding: 4em;
 }
@@ -111,6 +115,7 @@ padding-right:10px;
 	background: url("../media/massage_studio.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: lime;
 }
 
@@ -120,6 +125,7 @@ padding-right:10px;
 	background: url("../media/massage_studio.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
     color: lime;
     text-shadow: 2px 2px black;
 	padding: 4em;
@@ -131,6 +137,7 @@ padding-right:10px;
 	background: url("../media/skyline.jpg") fixed; 
 	background-repeat: no-repeat;	
 	background-size: cover;
+	background-position: center;
 	color: white;
 }
 /*Custom elements styling body of FLUID resume page*/
@@ -139,6 +146,7 @@ padding-right:10px;
 	background: url("../media/skyline.jpg") fixed; 
 	background-repeat: no-repeat;	
 	background-size: cover;
+	background-position: center;
 	color: white;
 	padding: 4em;
 }
@@ -159,8 +167,7 @@ padding-right:10px;
 	/*Phone*/
 	@media only screen and (min-width: 360px){
 		head, body { 
-			font-size: 12px;
-			
+			font-size: 12px;	
 		}
 		
 		#gmap_canvas {
@@ -186,8 +193,7 @@ padding-right:10px;
 	/*Tablet*/
 	@media only screen and (min-width: 720px){
 		head, body{
-			font-size: 14px;
-			
+			font-size: 14px;	
 		}
 		#gmap_canvas {
 		height: 400px;
