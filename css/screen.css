@@ -21,25 +21,40 @@ a:hover, a:active {
 
 /*Customize header and footer style*/
 header, footer {
-	background-color: gold;
-	padding: 1em;
+	background-color: none;
+	padding: none;
 }
 
 /*Remove style from unordered lists*/
 ul {
-    list-style: none;
+    list-style-type: none;
+    text-shadow: none;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding-top: 0.3%;
+    padding-left: 0;
+    width: 100%;
+    height: 3.5%;
+    background-color: gold;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
 /*Remove style from lists of items*/
 li {
     list-style: none;
+    display: inline;
+    border: 2px solid black;
+    border-top: 2px solid black;
+    padding: 2px;
 }
 
 #fav_sites {
 background-color: cyan;
-width:150px;
+width:225px;
 margin: auto;
-padding-right:40px;
+padding-right:10px;
 }
 /*
 @media screen and (min-width: 480px) {
@@ -57,7 +72,6 @@ padding-right:40px;
 */
 #header_index {
 	width: auto;
-	color: yellow;
 	background: url("../media/Autumn.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -69,7 +83,7 @@ padding-right:40px;
 	background: url("../media/Autumn.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2em;
+	padding: 0;
 }
 
 /*Custom element styling header of FLUID timeline page*/
