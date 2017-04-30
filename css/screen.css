@@ -168,79 +168,13 @@ padding-right:10px;
 		width: 300px;
 		}
 		
-		#header_index {
-	width: auto;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-/*Custom element styling body of FLUID homepage*/
-#container_index { 
-	width: auto;
-	color: yellow;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 4em;
-}
-
-/*Custom element styling header of FLUID timeline page*/
-#header_cod {
-	width: auto;
-	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*Custom element styling body of timeline page*/
-#container_cod {
-	width: auto;
-	background-color: #101010;
-   	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
-/*Custom element styling the head of FLUID business page*/
-#header_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: lime;
-}
-
-/*Custom element styling body of business page*/
-#container_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-    color: lime;
-    text-shadow: 2px 2px black;
-	padding: 4em;
-}
-
-/*Custom elements styling header of FLUID resume page*/
-#header_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-}
-/*Custom elements styling body of FLUID resume page*/
-#container_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
+		#header_index, #header_business, #header_cod, #header_resume {	
+			background-size: 360px;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background-size: 360px;
+		}
 	}
 	
 	
@@ -255,79 +189,13 @@ padding-right:10px;
 		height: 400px;
 		width: 400px;
 		}
-		#header_index {
-	width: auto;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-/*Custom element styling body of FLUID homepage*/
-#container_index { 
-	width: auto;
-	color: yellow;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 4em;
-}
-
-/*Custom element styling header of FLUID timeline page*/
-#header_cod {
-	width: auto;
-	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*Custom element styling body of timeline page*/
-#container_cod {
-	width: auto;
-	background-color: #101010;
-   	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
-/*Custom element styling the head of FLUID business page*/
-#header_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: lime;
-}
-
-/*Custom element styling body of business page*/
-#container_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-    color: lime;
-    text-shadow: 2px 2px black;
-	padding: 4em;
-}
-
-/*Custom elements styling header of FLUID resume page*/
-#header_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-}
-/*Custom elements styling body of FLUID resume page*/
-#container_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
+		#header_index, #header_business, #header_cod, #header_resume {
+			background-size: 720px;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background-size: 720px;
+		}
 	}
 	
 	/*Responsive Design*/
@@ -336,79 +204,13 @@ padding-right:10px;
 		head, body{
 			font-size: 11px;		
 		}
-		#header_index {
-	width: auto;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-/*Custom element styling body of FLUID homepage*/
-#container_index { 
-	width: auto;
-	color: yellow;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 4em;
-}
-
-/*Custom element styling header of FLUID timeline page*/
-#header_cod {
-	width: auto;
-	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*Custom element styling body of timeline page*/
-#container_cod {
-	width: auto;
-	background-color: #101010;
-   	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
-/*Custom element styling the head of FLUID business page*/
-#header_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: lime;
-}
-
-/*Custom element styling body of business page*/
-#container_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-    color: lime;
-    text-shadow: 2px 2px black;
-	padding: 4em;
-}
-
-/*Custom elements styling header of FLUID resume page*/
-#header_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-}
-/*Custom elements styling body of FLUID resume page*/
-#container_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
+		#header_index, #header_business, #header_cod, #header_resume {
+			background-size: 1080px;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background-size: 1080px;
+		}
 	}
 		
 	/*Responsive Design*/
@@ -418,78 +220,12 @@ padding-right:10px;
 			font-size: 12px;
 			
 		}
-		#header_index {
-	width: auto;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-/*Custom element styling body of FLUID homepage*/
-#container_index { 
-	width: auto;
-	color: yellow;
-	background: url("../media/Autumn.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 4em;
-}
-
-/*Custom element styling header of FLUID timeline page*/
-#header_cod {
-	width: auto;
-	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*Custom element styling body of timeline page*/
-#container_cod {
-	width: auto;
-	background-color: #101010;
-   	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
-/*Custom element styling the head of FLUID business page*/
-#header_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: lime;
-}
-
-/*Custom element styling body of business page*/
-#container_business {
-	width: auto;
-	background: url("../media/massage_studio.jpg") fixed; 
-	background-repeat: no-repeat;
-	background-size: cover;
-    color: lime;
-    text-shadow: 2px 2px black;
-	padding: 4em;
-}
-
-/*Custom elements styling header of FLUID resume page*/
-#header_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-}
-/*Custom elements styling body of FLUID resume page*/
-#container_resume {
-	width: auto;
-	background: url("../media/skyline.jpg") fixed; 
-	background-repeat: no-repeat;	
-	background-size: cover;
-	color: white;
-	padding: 4em;
-}
-
+		#header_index, #header_business, #header_cod, #header_resume {
+			background-size: 1440px;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background-size: 1440px;
+		}
 	
 	}
