@@ -160,23 +160,49 @@ padding-right:10px;
 	@media only screen and (min-width: 360px){
 		head, body { 
 			font-size: 9px;
-			width: 100%;
+			
 		}
+		
 		#gmap_canvas {
 		height: 300px;
 		width: 300px;
+		}
+		
+		#header_index, #header_business, #header_cod, #header_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
+		}
 	}
+	
 	
 	/*Responsive Design*/
 	/*Tablet*/
 	@media only screen and (min-width: 720px){
 		head, body{
 			font-size: 10px;
-			width: 100%;
+			
 		}
 		#gmap_canvas {
 		height: 400px;
 		width: 400px;
+		}
+		#header_index, #header_business, #header_cod, #header_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
 		}
 	}
 	
@@ -184,17 +210,38 @@ padding-right:10px;
 	/*Laptop*/
 	@media only screen and (min-width: 1080px){
 		head, body{
-			font-size: 11px;
-			background: 100%;	
+			font-size: 11px;		
 		}
+		#header_index, #header_business, #header_cod, #header_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
+		}
+		
+		#container_index, #container_business, #container_cod, #container_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
+		}
+	}
 		
 	/*Responsive Design*/
 	/*Desktop*/
 	@media only screen and (min-width: 1440px){
 		head, body{
 			font-size: 12px;
-			width: 100%;
+			
+		}
+		#header_index, #header_business, #header_cod, #header_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
 		}
 		
-	}
+		#container_index, #container_business, #container_cod, #container_resume {
+			background: fixed;
+			background-repeat: no-repeat;	
+			background-size: cover;
+		}
+	
 	}
