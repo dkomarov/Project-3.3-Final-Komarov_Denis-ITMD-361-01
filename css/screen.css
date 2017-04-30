@@ -69,13 +69,6 @@ width:225px;
 margin: auto;
 padding-right:10px;
 }
-/*
-@media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-*/
 
 /*
 @-ms-viewport{
@@ -83,6 +76,7 @@ padding-right:10px;
   height: device-height;
 }
 */
+
 #header_index {
 	width: auto;
 	background: url("../media/Autumn.jpg") fixed; 
@@ -154,6 +148,25 @@ padding-right:10px;
 	background-size: cover;
 	color: white;
 	padding: 4em;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+       padding: 28px 3px;
+	   margin-top: 47px;
+	   margin-left:0;
+	   margin-right:0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+       padding: 28px 5px;
+		margin-top: 47px;
+		margin-left:10%;
+		margin-right:10%;
+
+    }
 }
 
 #gmap_canvas {
