@@ -34,8 +34,7 @@ ul a:link {
 
 /*Customize header and footer style*/
 header, footer {
-	background-color: none;
-	padding: none;
+	padding: 0;
 }
 
 /*Remove style from unordered lists*/
@@ -50,7 +49,7 @@ ul {
     width: 100%;
     height: 25px;
     background-color: gold;
-    position: top; /* Make it stick, even on scroll */
+    position: center;
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
@@ -64,10 +63,10 @@ li {
 }
 
 #link {
-background-color: turquoise;
-width:225px;
-margin: auto;
-padding-right:10px;
+	background-color: turquoise;
+	width:225px;
+	margin: auto;
+	padding-right:10px;
 }
 
 #header_index {
@@ -163,91 +162,93 @@ padding-right:10px;
 	background:none!important;
 }
 
-	/*Responsive Design, Mobile-First*/
-	/*Phone*/
-	@media only screen and (min-width: 360px){
-		head, body { 
-			font-size: 11px;	
-		}
+/*Responsive Design, Mobile-First*/
+/*Phone*/
+@media only screen and (min-width: 360px) {
+	head, body { 
+		font-size: 11px;	
+	}
 		
-		#gmap_canvas {
+	#gmap_canvas {
 		height: 300px;
 		width: 300px;
-		}
+	}
 		
-		#header_index, #header_business, #header_cod, #header_resume {	
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
+	#header_index, #header_business, #header_cod, #header_resume {	
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
 		
-		#container_index, #container_business, #container_cod, #container_resume {
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
+	#container_index, #container_business, #container_cod, #container_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+}
+	
+	
+/*Responsive Design*/
+/*Tablet*/
+@media only screen and (min-width: 720px) {
+	head, body {
+		font-size: 13px;	
 	}
 	
-	
-	/*Responsive Design*/
-	/*Tablet*/
-	@media only screen and (min-width: 720px){
-		head, body{
-			font-size: 13px;	
-		}
-		#gmap_canvas {
+	#gmap_canvas {
 		height: 400px;
 		width: 400px;
-		}
-		#header_index, #header_business, #header_cod, #header_resume {
-			min-height: 100%;
-			min-width: 100%;
-			margin: auto;
-		}
-		
-		#container_index, #container_business, #container_cod, #container_resume {
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
 	}
 	
-	/*Responsive Design*/
-	/*Laptop*/
-	@media only screen and (min-width: 1080px){
-		head, body{
-			font-size: 16px;		
-		}
-		#header_index, #header_business, #header_cod, #header_resume {
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
-		
-		#container_index, #container_business, #container_cod, #container_resume {
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
+	#header_index, #header_business, #header_cod, #header_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
 	}
 		
-	/*Responsive Design*/
-	/*Desktop*/
-	@media only screen and (min-width: 1440px){
-		head, body{
-			font-size: 18px;
-			
-		}
-		#header_index, #header_business, #header_cod, #header_resume {
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
-		
-		#container_index, #container_business, #container_cod, #container_resume {
-			min-height: 100%
-			min-width: 100%;
-			margin: auto;
-		}
+	#container_index, #container_business, #container_cod, #container_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+}
 	
+/*Responsive Design*/
+/*Laptop*/
+@media only screen and (min-width: 1080px) {
+	head, body {
+		font-size: 16px;		
 	}
+	
+	#header_index, #header_business, #header_cod, #header_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+		
+	#container_index, #container_business, #container_cod, #container_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+}
+		
+/*Responsive Design*/
+/*Desktop*/
+@media only screen and (min-width: 1440px) {
+	head, body {
+		font-size: 18px;
+	}
+	
+	#header_index, #header_business, #header_cod, #header_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+		
+	#container_index, #container_business, #container_cod, #container_resume {
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+}
