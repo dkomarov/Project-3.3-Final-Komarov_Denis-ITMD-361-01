@@ -90,7 +90,7 @@ padding-right:10px;
 	background-size: cover;
 }
 /*Custom element styling body of FLUID homepage*/
-#container_index {
+#container_index { 
 	width: auto;
 	color: yellow;
 	background: url("../media/Autumn.jpg") fixed; 
