@@ -7,15 +7,28 @@ html, body {
 	text-shadow: 2px 2px black;
 }
 
+a.custom {
+	color: black!important;
+}
+
+a.custom:hover {
+	color: #2149DF!important;
+}
+
 /*Customize the initial appearance of a link, and once it is visited via events*/
-a:link, a:visited {
+#link a:link, a:visited {
 	color: #2149DF;
 	text-decoration: underline;
 	text-shadow: none;
 } 
 
+/*Remove hyperlink underlining for headers and footers*/
+ul a:link { 
+	text-decoration: none; 
+}
+
 /*Address link appearance when hovered over and active via events*/
-a:hover, a:active {
+#link a:hover, a:active {
 	color: red;
 } 
 
@@ -29,7 +42,6 @@ header, footer {
 ul {
     list-style-type: none;
     text-shadow: none;
-    text-decoration: none;
     display: block;
     margin: 0;
     padding-top: 0.7%;
@@ -44,7 +56,6 @@ ul {
 
 /*Remove style from lists of items*/
 li {
-    list-style: none;
     display: inline;
     border: 2px solid black;
     border-top: 2px solid black;
@@ -52,8 +63,8 @@ li {
     padding: 2px;
 }
 
-#fav_sites {
-background-color: cyan;
+#link {
+background-color: turquoise;
 width:225px;
 margin: auto;
 padding-right:10px;
@@ -85,14 +96,15 @@ padding-right:10px;
 	background: url("../media/Autumn.jpg") fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 0;
+	padding: 4em;
 }
 
 /*Custom element styling header of FLUID timeline page*/
 #header_cod {
 	width: auto;
-	background-color: black;
-	color: white;
+	background: url("../media/Flag over the Reichstag, Berlin 1945.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*Custom element styling body of timeline page*/
@@ -103,7 +115,7 @@ padding-right:10px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	padding: 2em;
+	padding: 4em;
 }
 
 /*Custom element styling the head of FLUID business page*/
@@ -123,7 +135,7 @@ padding-right:10px;
 	background-size: cover;
     color: lime;
     text-shadow: 2px 2px black;
-	padding: 2em;
+	padding: 4em;
 }
 
 /*Custom elements styling header of FLUID resume page*/
@@ -141,7 +153,7 @@ padding-right:10px;
 	background-repeat: no-repeat;	
 	background-size: cover;
 	color: white;
-	padding: 2em;
+	padding: 4em;
 }
 
 #gmap_canvas {
