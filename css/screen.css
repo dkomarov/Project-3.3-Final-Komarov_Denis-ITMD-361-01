@@ -167,7 +167,7 @@ padding-right:10px;
 	/*Phone*/
 	@media only screen and (min-width: 360px){
 		head, body { 
-			font-size: 12px;	
+			font-size: 11px;	
 		}
 		
 		#gmap_canvas {
@@ -193,7 +193,7 @@ padding-right:10px;
 	/*Tablet*/
 	@media only screen and (min-width: 720px){
 		head, body{
-			font-size: 14px;	
+			font-size: 13px;	
 		}
 		#gmap_canvas {
 		height: 400px;
