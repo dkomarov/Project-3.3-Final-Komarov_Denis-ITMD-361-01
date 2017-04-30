@@ -169,11 +169,11 @@ padding-right:10px;
 		}
 		
 		#header_index, #header_business, #header_cod, #header_resume {	
-			background-size: 360px;
+			background-size: cover;
 		}
 		
 		#container_index, #container_business, #container_cod, #container_resume {
-			background-size: 360px;
+			background-size: cover;
 		}
 	}
 	
@@ -190,11 +190,11 @@ padding-right:10px;
 		width: 400px;
 		}
 		#header_index, #header_business, #header_cod, #header_resume {
-			background-size: 720px;
+			background-size: cover;
 		}
 		
 		#container_index, #container_business, #container_cod, #container_resume {
-			background-size: 720px;
+			background-size: cover;
 		}
 	}
 	
@@ -205,11 +205,11 @@ padding-right:10px;
 			font-size: 11px;		
 		}
 		#header_index, #header_business, #header_cod, #header_resume {
-			background-size: 1080px;
+			background-size: 1080px 1080px;
 		}
 		
 		#container_index, #container_business, #container_cod, #container_resume {
-			background-size: 1080px;
+			background-size: 1080px 1080px;
 		}
 	}
 		
@@ -221,11 +221,11 @@ padding-right:10px;
 			
 		}
 		#header_index, #header_business, #header_cod, #header_resume {
-			background-size: 1440px;
+			background-size: 1440px 1440px;
 		}
 		
 		#container_index, #container_business, #container_cod, #container_resume {
-			background-size: 1440px;
+			background-size: 1440px 1440px;
 		}
 	
 	}
